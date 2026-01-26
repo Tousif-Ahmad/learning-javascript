@@ -21,3 +21,4 @@ const user = {
 
 // Object.seal(user);
 // Object.freeze(user);
+
