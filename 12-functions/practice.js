@@ -78,8 +78,30 @@
 //   }, 1000);
 // }
 
-for (let i = 1; i <= 3; i++) {
-  setTimeout(() => {
-    console.log(i);
-  }, 1000);
+// for (let i = 1; i <= 3; i++) {
+//   setTimeout(() => {
+//     console.log(i);
+//   }, 1000);
+// }
+
+
+// DIFFERENCE BETWEEN FUNCTION AND METHODS 
+// function add(a,b){
+//   console.log(a + b);
+// }
+// add();
+
+
+const maths={
+  E : 2.7483738758,
+  add:function(a,b){
+    return a + b
+  },
+  squre:function(num){
+    return num * num;
+  },
+  subtract(a,b){
+    return a - b;
+  }
 }
+// maths.add()
